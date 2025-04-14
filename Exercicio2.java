@@ -1,0 +1,16 @@
+public class Exercicio2 {
+    public static void main(String[] args) {
+        Pessoa pessoa = new Pessoa();
+        pessoa.setNome("Maria Helena");
+        pessoa.setIdade(18.0);
+        pessoa.setAltura(1.6);
+        pessoa.setPeso(55.0);
+        System.out.println("Nome: " + pessoa.getNome());
+        System.out.println("Idade: " + pessoa.getIdade());
+        System.out.println("Peso: " + pessoa.getPeso());
+        System.out.println("Altura: " + pessoa.getAltura());
+        System.out.println("IMC: " + pessoa.calcularIMC());
+        System.out.println("Classificação: " + pessoa.classificarIMC());
+        System.out.println("Dados pessoais: \n" + pessoa);
+    }
+}
