@@ -67,9 +67,13 @@ public class Pessoa {
         }
     }
 
-    public String toString() {
-        String var10000 = this.nome;
-        return "Nome: " + var10000 + "\nPeso: " + this.peso + "\nAltura: " + this.altura + "\nIdade: " + this.idade + "\nIMC: " + this.calcularIMC() + "\nClassificação: " + this.classificarIMC();
-    }
+    public String toString() {   //representação em forma de String, do estado do objeto     //este metodo ja existe e nos estamos a invovcar novamente
+        return "Nome: " + this.nome + "\n" +
+                "Peso: " + this.peso + "\n" +
+                "Altura: " + this.altura + "\n" +
+                "Idade: " + this.idade + "\n" +
+                "IMC: " + this.calcularIMC() + "\n" +
+                "Classificação: " + this.classificarIMC();
 
+    }
 }
