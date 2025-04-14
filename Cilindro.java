@@ -7,10 +7,10 @@ public class Cilindro {
         return raio;
     }
 
-    public void setRaio(double raio) {      // modifica o objeto através da atribuação do valor passado por parâmetro a este objeto
+    public void setRaio(double raio) {     // modifica o objeto através da atribuação do valor passado por parâmetro a este objeto
         if (raio > 0) {
             this.raio = raio;
-        }                       //raio a roxo apra se referir ao objeto declaro em cima // this é referência para o próprio objeto
+        }      //raio a roxo apra se referir ao objeto declaro em cima // this é referência para o próprio objeto
     }
 
     public double getAltura() {

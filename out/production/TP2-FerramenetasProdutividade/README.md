@@ -23,7 +23,7 @@ TP2-FerramentasProdutividade/
 ├── Cilindro.java          # Classe auxiliar usada no exercício 1
 ├── Exercicio2.java        # Método main do exercício 2
 ├── Pessoa.java            # Classe auxiliar usada no exercício 2
-└── README.md              # Documento com informações do projeto
+└── README.md              # Documento com instruções e informações do projeto
 ````
 
 ### Informações institucionais
